@@ -1,2 +1,11 @@
 #!/bin/bash
-echo "I dont have to be great to start, but i have to start to be great!"
+
+string=""
+if [[ -z "$string" ]] ; then
+    echo "The string is empty"
+
+elif [[ -n "$string" ]] ; then
+    #statements
+    echo "The string is no empty"
+
+fi
