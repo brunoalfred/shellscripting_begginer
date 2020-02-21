@@ -1,11 +1,14 @@
 #!/bin/bash
 
-function sum {
-
-    sum=3+4
-    echo $sum
-
-
+mystatus ()
+{
+    return 0
 }
 
-sum
+if mystatus ;
+then
+    echo date
+else
+    echo "bye"
+
+fi
