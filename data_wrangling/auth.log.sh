@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat auth.log | grep -in "failed" | less
+cat auth.log | grep -i "failed" | sed 's/localhost*//' |less
