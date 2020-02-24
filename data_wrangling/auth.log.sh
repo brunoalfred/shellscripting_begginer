@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat auth.log | grep -i "failed" | sed 's/*09//' |less
+cat auth.log | grep -i "passed" | sed 's/*09//' | less
